@@ -1,0 +1,28 @@
+:root{
+    --bg-new: rgb(21, 22, 29);
+}
+.back_home{
+    width: 100%;
+    height: 700px;
+    background-image: url(/assets/img/back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.mt-6{
+    margin-top: 250px;
+}
+.mt-7{
+    margin-top: 100px !important;
+}
+.fs-8{
+    font-size: 4rem;
+}
+.bg-new{
+    background-color: var(--bg-new) !important;
+}
+.fab:hover{
+    color: rgb(4, 224, 202) !important;
+    transition: 0.4s ease-in-out;
+}
